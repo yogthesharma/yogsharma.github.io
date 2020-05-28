@@ -1,0 +1,203 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body{
+    background-color: rgb(27, 23, 23);
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;;
+}
+
+p{
+ color: rgb(121, 121, 121);   
+ font-size: 15px;
+ font-weight: 600;
+}
+
+
+
+/* main header starts*/
+.nav-brand{
+    font-family: 'Courgette', cursive;
+}
+
+.navbar{
+    background-color: rgb(24, 22, 22);
+}
+
+.nav-link:hover{
+    color: white!important;
+}
+
+.imageClass{
+    width: 100vw;
+    height: 90vh;
+    filter: contrast(0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myName{
+    position: absolute;
+    top: 43%;
+    left: 36.5%;
+    text-align: center;
+    line-height: 35px;
+}
+
+.myName h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: black;
+}
+
+.myName p{
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+}
+
+.btn-hire{
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    border-radius: 40px;
+}
+/* main header ends*/
+
+/* about starts */
+
+.about{
+    padding: 50px;
+}
+.about-header{
+    width: 100%;
+    text-align: center;
+    margin: 90px 0px 90px 0px;
+}
+.about-header h1{
+    color: white;
+}
+
+.question{
+    line-height: 20px; 
+}
+
+.question p{
+    line-height: 30px; 
+}
+
+.question .btn-cv{
+    color: white; 
+    transition: background-color 1s ease;
+    
+}
+
+.question .btn-cv:hover{
+    background-color: rgb(214, 214, 214);
+    color: black;
+    font-weight: 900;
+}
+
+
+/* about ends */
+
+/* my services start */
+
+.my-service{
+    padding:30px;
+    margin: 30px 0px;
+}
+.innerMost{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(71, 69, 69);
+    margin: 20px 0px;
+    box-sizing: border-box;
+    transition: transform .5s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.innerMost:hover{
+    transform: translateY(-10px);
+}
+.innerMost label{
+    font-size: 40px;
+    color: white;
+    
+}
+/* my services ends */
+/* my skills starts */
+
+
+.skill{
+    padding: 30px;
+}
+.subprogress{
+    display: flex;
+}
+
+
+.main-progress .row .col{
+    padding: 30px;
+}
+.main-progress .row .col h3{
+    font-size: 20px;
+}
+
+.progress{
+    height: 5px;
+}
+
+/* my skills ends */
+
+.footer{
+    margin: 30px;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
+
+.social-list{
+    position: relative;
+    right: 30px;
+    font-size: 30px;
+}
+.social-list a{
+    color: white;
+}
+
+.sub-footer span{
+    color: white;
+
+}
+.sub-footer a{
+    text-decoration: none;
+    color:  rgb(121, 121, 121);   ;
+    
+}
+
+.copyright{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+/* footer starts */
